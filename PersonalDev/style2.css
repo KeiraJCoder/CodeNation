@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+
+body {
+  background-image: url('neck2-small.jpg');
+  background-repeat: no-repeat; 
+}
+
+
+@media only screen and (min-device-width: 400px) {
+  body { 
+      background-image: url('neck2.jpg'); 
+      background-repeat: no-repeat; 
+}
+
+h1 {
+  position: flex;
+  font-size: 10% auto;
+  color: #000000;
+  font-family: 'Tourney', cursive;
+  margin-left: 30% auto;
+  margin-top: 0% auto;
+text-shadow: 1px 0 #ffffff;
+}
+
+
+body {
+  position: flex;
+  background-image: url('Yamaha-FG800-2.jpg');
+  background-position: center top;     
+  background-repeat: no-repeat;
+  background-size:inherit;
+  overflow: hidden;
+}
+
+.strings {
+  position: fixed;
+  width: 400px auto;
+  height: 200px auto;
+  top: 89% auto;
+  right: 33.4% auto;
+  padding-left: 2% auto;
+
+}
+
+.position {
+  position: absolute;
+  top: 200% auto;
+  right: 700% auto;
+  width: 20px auto;
+  height: 10x auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Keira\Documents\CodeNation\Week4\VirtualPet\main.csss">
+    <title>CyberPet</title>
+</head>
+
+<body>
+    <h1 id="petname">Choose your Cyberpet!</h1>
+
+    <div id="petimgs">
+        <img src="img/rabbit.jpg" id="rabbitimg">
+        <img src="img/Dog.png" id="dogimg">
+        <img src="img/Cat.jpg" id="catimg">
+
+    </div>
+
+    <div id="petcontainer">
+        <button type=button id="rabbitbtn">Rabbit</button>
+        <button type=button id="dogbtn">Dog</button>
+        <button type=button id="catbtn">Cat</button>
+    </div>
+
+
+    <div id="methodscontainer">
+        <button id="feedbtn">Feed</button>
+        <button id="drinkbtn">Drink</button>
+        <button id="playbtn">Play</button>
+        <button id="sleepbtn">Sleep</button>
+    </div>
+
+    <div id="progressbars">
+        <div>Hunger</div>
+        <progress id="hungerbar" max="100" value="50">50%</progress>
+        <div>Thirst</div>
+        <progress id="thirstbar" max="100" value="50"> 50%</progress>
+        <div>Energy</div>
+        <progress id="energybar" max="100" value="50"> 50%</progress>
+        <div>Boredom</div>
+        <progress id="boredbar" max="100" value="50"> 50%</progress>
+    </div>
+
+
+
+    <script src="/pets.js"></script>
+    <script src="/app.js"></script>
+</body>
+
+</html>
